@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: darkorange;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+        
+        a::after {
+            content: '[link]';
+            color: beige;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+    <li><a href="https://chatgpt.com/" target="_blank">Chatgpt</a></li>
+    <li><a href="https://www.instagram.com/" target="_blank">perfil instagram</a></li>
+</body>
+</html>
